@@ -1,0 +1,32 @@
+-- Create table
+CREATE TABLE emp_122 (
+    eid SERIAL PRIMARY KEY,
+    ename VARCHAR(100),
+    job VARCHAR(100),
+    salary NUMERIC(10, 2),
+    hiredate DATE,
+    departmentno INT
+);
+
+-- Insert 20 rows
+INSERT INTO emp_122 (ename, job, salary, hiredate, departmentno) VALUES
+(1, 'John Doe', 'manager', 50000.00, '2023/01/01', 10),
+(2, 'Jane Smith', 'clerk', 30000.00, '2023/02/02', 20),
+(3, 'Michael Johnson', 'manager', 55000.00, '2023/03/03', 30),
+(4, 'Emily Brown', 'clerk', 32000.00, '2023/04/04', 40),
+(5, 'David Wilson', 'manager', 52000.00, '2023/05/05', 50),
+(6, 'Jessica Lee', 'clerk', 31000.00, '2023/06/06', 10),
+(7, 'Christopher Davis', 'manager', 53000.00, '2023/07/07', 20),
+(8, 'Amanda Martinez', 'clerk', 33000.00, '2023/08/08', 30),
+(9, 'James Rodriguez', 'manager', 51000.00, '2023/09/09', 40),
+(10, 'Sarah Taylor', 'clerk', 34000.00, '2023/10/10', 50),
+(11, 'Daniel Thomas', 'manager', 54000.00, '2023/11/11', 10),
+(12, 'Ashley Garcia', 'clerk', 32000.00, '2023/12/12', 20),
+(13, 'Robert Hernandez', 'manager', 52000.00, '2024/01/13', 30),
+(14, 'Jennifer Martinez', 'clerk', 31000.00, '2024/02/14', 40),
+(15, 'Matthew Lopez', 'manager', 53000.00, '2024/03/15', 50),
+(16, 'Samantha Gonzalez', 'clerk', 33000.00, '2024/04/16', 10),
+(17, 'William Perez', 'manager', 55000.00, '2024/05/17', 20),
+(18, 'Emily Flores', 'clerk', 34000.00, '2024/06/18', 30),
+(19, 'Joseph Sanchez', 'manager', 56000.00, '2024/07/19', 40),
+(20, 'Victoria Torres', 'clerk', 35000.00, '2024/08/20', 50);
